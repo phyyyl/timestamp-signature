@@ -1,0 +1,30 @@
+{
+  "name": "timestamp-signature",
+  "version": "0.0.0",
+  "description": "Cryptigraphically linking data with timestamps",
+  "main": "src/tss.js",
+  "scripts": {
+    "debug": "DEBUG=* node example/example1.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phyyyl/timestamp-signature.git"
+  },
+  "keywords": [
+    "signing",
+    "timestamps",
+    "cryptography"
+  ],
+  "author": "phyyyl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phyyyl/timestamp-signature/issues"
+  },
+  "homepage": "https://github.com/phyyyl/timestamp-signature#readme",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "openpgp": "^4.6.2",
+    "wait-for-event": "^1.0.0",
+    "wait-for-stuff": "^1.4.0"
+  }
+}
